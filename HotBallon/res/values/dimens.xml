@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="name_margin_min">5dp</dimen>
+    <dimen name="popo_margin_min">20dp</dimen>
+    <dimen name="popo_margin_max">105dp</dimen>
+    <dimen name="popo_margin_min2">90dp</dimen>
+    <dimen name="popo_margin_max2">150dp</dimen>
+    
+    <dimen name="country_width">21dp</dimen>
+    <dimen name="country_height">14dp</dimen>
+    
+    
+
+</resources>
