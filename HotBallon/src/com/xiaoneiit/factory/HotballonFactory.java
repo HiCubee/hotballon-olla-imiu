@@ -6,11 +6,11 @@ import java.util.Random;
 
 import android.util.Log;
 
+import com.xiaoneiit.definition.Message;
+import com.xiaoneiit.definition.Name;
+import com.xiaoneiit.definition.Popo;
 import com.xiaoneiit.entity.Hotballon;
 import com.xiaoneiit.view.HotballonScrollView;
-import com.xioneiit.definition.Message;
-import com.xioneiit.definition.Name;
-import com.xioneiit.definition.Popo;
 
 public class HotballonFactory {
 	

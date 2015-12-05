@@ -1,4 +1,4 @@
-package com.xioneiit.definition;
+package com.xiaoneiit.definition;
 
 public class Name {
 	public static String[] DATA = {

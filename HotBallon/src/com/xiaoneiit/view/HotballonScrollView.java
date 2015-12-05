@@ -20,15 +20,15 @@ import android.widget.Toast;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.xiaoneiit.db.HijasonApplication;
+import com.xiaoneiit.definition.Avator;
+import com.xiaoneiit.definition.Country;
+import com.xiaoneiit.definition.Hijason;
+import com.xiaoneiit.definition.Message;
+import com.xiaoneiit.definition.Name;
+import com.xiaoneiit.definition.Popo;
 import com.xiaoneiit.entity.Hotballon;
 import com.xiaoneiit.hotballon.R;
 import com.xiaoneiit.util.HijasonUtil;
-import com.xioneiit.definition.Avator;
-import com.xioneiit.definition.Country;
-import com.xioneiit.definition.Hijason;
-import com.xioneiit.definition.Message;
-import com.xioneiit.definition.Name;
-import com.xioneiit.definition.Popo;
 
 /**
  * 
@@ -244,7 +244,7 @@ public class HotballonScrollView extends ScrollView{
 		message.setTextColor(getColor(R.color.color_white));
 		message.setText(Message.getMessage(hotballons.get(index).getMessage()));
 		messageParams.setMargins(0, (int) (popoHeight * 0.17),  0, 0);
-		message.setLines(3);
+		message.setLines(messageLines);
 		relativeLayout.addView(message);
 
 		getMinHeightLayout(popoHeight + avatorHeight + marginTop).addView(relativeLayout);

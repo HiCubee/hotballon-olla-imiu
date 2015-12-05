@@ -1,4 +1,4 @@
-package com.xioneiit.definition;
+package com.xiaoneiit.definition;
 
 import java.io.IOException;
 import java.io.InputStream;

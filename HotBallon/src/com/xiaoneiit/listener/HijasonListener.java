@@ -7,13 +7,13 @@ import android.widget.Toast;
 
 import com.xiaoneiit.asyn.GetMoreHotBallon;
 import com.xiaoneiit.category.HijasonCategory;
+import com.xiaoneiit.definition.Hijason;
+import com.xiaoneiit.definition.Message;
+import com.xiaoneiit.definition.Name;
 import com.xiaoneiit.entity.Hotballon;
 import com.xiaoneiit.hotballon.HijasonActivity;
 import com.xiaoneiit.view.HotballonScrollView.OnScrollToBottomListener;
 import com.xiaoneiit.view.HotballonScrollView.OnViewClickListener;
-import com.xioneiit.definition.Hijason;
-import com.xioneiit.definition.Message;
-import com.xioneiit.definition.Name;
 
 /**
  * 
